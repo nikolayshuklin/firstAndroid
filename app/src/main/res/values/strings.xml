@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Debug</string>
-    <string name="is_equal">Равно?</string>
+    <string name="app_name">Hello Geekbrains</string>
+    <string name="text">text</string>
+    <string name="textPersonName">textPersonName</string>
+    <string name="phone">phone</string>
+    <string name="number">number</string>
+    <string name="textPassword">textPassword</string>
+    <string name="textEmailAddress">textEmailAddress</string>
 </resources>
