@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/text"
+        android:hint="@string/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:ems="20"
+        />
+
+    <EditText
+        android:id="@+id/textPersonName"
+        android:hint="@string/textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:hint="@string/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/number"
+        android:hint="@string/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:hint="@string/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/textEmailAddress"
+        android:hint="@string/textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="-356"
+        android:inputType="textEmailAddress"
+        />
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:selectedWeekBackgroundColor="#ff0000"
+        android:weekNumberColor="#0000ff"
+        android:weekSeparatorLineColor="#00ff00" />
+
+</LinearLayout>
